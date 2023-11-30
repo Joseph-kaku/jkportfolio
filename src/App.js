@@ -1,11 +1,11 @@
-import './App.css';
+import './styles.css';
 
-function App() {
+function homepage() {
   return (
-    <div className="App">
-test
-    </div>
-  );
+    <header>
+      <h1>Homepage</h1>
+    </header>
+    );  
 }
 
-export default App;
+export default homepage;
