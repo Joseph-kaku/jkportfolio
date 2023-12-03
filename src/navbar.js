@@ -5,9 +5,8 @@ return (
     <nav>
     <ul>
         <li><a href="/">Homepage</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="/About">About</a></li>
+        <li><a href="/Samples">Samples</a></li>
     </ul>
     </nav>
 );

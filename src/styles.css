@@ -10,5 +10,16 @@
   text-align: center;
 }
 
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
 
 
