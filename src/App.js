@@ -1,11 +1,19 @@
+import React from 'react';
+import Navbar from './navbar';
+import Footer from './footer';
+import Main from './main';
+import Header from './header';
 import './styles.css';
 
-function homepage() {
+function Homepage() {
   return (
-    <header>
-      <h1>Homepage</h1>
-    </header>
-    );  
+    <div class="homepage">
+      <Header />
+        <Navbar />
+        <Main />
+      <Footer />
+    </div>
+  );  
 }
 
-export default homepage;
+export default Homepage;
