@@ -8,8 +8,8 @@ import './styles.css';
 function Homepage() {
   return (
     <div class="homepage">
-      <Header />
         <Navbar />
+      <Header />
         <Main />
       <Footer />
     </div>
