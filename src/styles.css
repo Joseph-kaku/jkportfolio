@@ -1,3 +1,16 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*******************************************************
+ * 
+ *  Header
+ * 
+ ******************************************************/
+
 .h1 {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,7 +32,71 @@ nav ul {
 
 nav ul li a{
   text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5cm;
 }
 
+/* Logo */
 
+.logo{
+  width:10%;
+}
 
+.logo > img {
+  width: 100%;
+  border-radius: 15%;
+}
+
+/* Nav */
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*******************************************************
+  * 
+  *  Main
+  * 
+******************************************************/
+
+/* About Me Section */
+
+.image > img{
+  width: 100px;
+}
+
+.aboutme{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.resumelay{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Projects Section */
+
+.resumelay > hr{
+  height: 300px;
+}
+
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Others Section */
+
+.others {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

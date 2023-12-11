@@ -9,9 +9,9 @@ function Homepage() {
   return (
     <div class="homepage">
         <Navbar />
-      <Header />
+        <Header />
         <Main />
-      <Footer />
+        <Footer />
     </div>
   );  
 }
