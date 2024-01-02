@@ -10,10 +10,10 @@ return (
         </img>
     </div>
     <ul>
-        <li><a href="/">About Me</a></li>
-        <li><a href="/Resume">Resume</a></li>
-        <li><a href="/Projects">Projects</a></li>
-        <li><a href="/Others">Others</a></li>
+        <li><a href="/#aboutme">About Me</a></li>
+        <li><a href="/#resumelay">Resume</a></li>
+        <li><a href="/#projects">Projects</a></li>
+        <li><a href="/#others">Others</a></li>
     </ul>
     </nav>
 );
