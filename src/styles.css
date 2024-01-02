@@ -1,3 +1,13 @@
+:root {
+  --main-bg-color: #00072D;
+  --secondary-bg-color: #001C55;
+  --tetiary-bg-color: #0A2472;
+  --supplementary-bg-color: #0E6BA8;
+  --main-hover-color: #A6E1FA;
+  --main-text-color: white;
+}
+
+
 /* reset */
 *{
   margin: 0;
@@ -11,56 +21,63 @@
  * 
  ******************************************************/
 
-.h1 {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  text-align: center;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style: none;
-}
-
-nav ul li a{
-  text-decoration: none;
-  display: flex;
-  justify-content: space-around;
-  margin: 1.5cm;
-}
-
-/* Logo */
-
-.logo{
-  width:10%;
-}
-
-.logo > img {
-  width: 100%;
-  border-radius: 15%;
-}
-
 /* Nav */
 nav {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: var(--main-bg-color);
 }
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  margin: 0.8cm;
+  color: var(--main-text-color);
+}
+
+nav ul li a:hover{
+  color: var(--main-hover-color);
+}
+
+/* Logo */
+
+.logo{
+  width: 5%;
+}
+
+.logo > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* Header */
+.header {
+  color: var(--main-text-color);
+}
+
 
 /*******************************************************
   * 
   *  Main
   * 
 ******************************************************/
+
+.main {
+  color: var(--main-text-color);
+}
+
+body {
+  background-color: var(--secondary-bg-color);
+  width: 100vh;
+  margin: 0 auto;
+}
 
 /* About Me Section */
 
@@ -107,3 +124,23 @@ nav {
   *  Footer
   * 
 ******************************************************/
+
+footer {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.contact ul {
+  list-style: none;
+  display: flex;
+}
+
+
+.contact ul li a {
+  text-decoration: none;
+  margin: 0.4cm;
+  color: var(--main-text-color);
+}
