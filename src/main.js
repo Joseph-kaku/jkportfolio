@@ -8,9 +8,12 @@ function Main() {
             <p> About Me </p>
             <div id ="aboutme">
             <div class="text" >
-                <p> A little about me </p>
-                <p> Paragraph about me </p>
-                <p> Technical skills </p>
+            <p> I have been working with Web development tools for the past 3 years. </p>
+            <p> I am interested in building websites and web applications </p>     
+            <p> that will aid users in their endeavors to reach audiences. </p> 
+            <p> I am proficient in the following languages HTML, CSS and JavaScript, SQL, Node.js, and Express.js.  </p>
+            <p> I have experience with MongoDB and with the Render Web Service</p>
+            <p> I am currently learning React. </p>
             </div>
 
             <div class="image">
@@ -21,16 +24,16 @@ function Main() {
 
             <p> Resume </p>
             <div id ="resumelay">
-            <p> Title & Company </p>
-            <hr></hr>
-            <p> Work Done </p>
+            <img alt="resume" >
+
+            </img>
             </div>
 
             <p> Projects </p>
             <div id ="projects">  
             <div class = "desc">
-                <p> Project 1 </p>
-                <p> Project 2 </p>
+                <p> MacawManager </p>
+                <p> Shoelog </p>
                 </div>
 
                 <div class="imgs">
