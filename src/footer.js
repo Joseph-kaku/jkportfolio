@@ -13,6 +13,6 @@ return (
         </div>
     </footer>
 );
-}
+}// eslint-disable-next-line
 
 export default Footer; 

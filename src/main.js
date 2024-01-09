@@ -1,6 +1,9 @@
 import React from "react";
 import Selfpic from "./selfpotrait.png";
 
+// import { HoverCard, HoverCardContent, HoverCardTrigger, } from "@radix-ui/react-hover-card"
+
+
 function Main() { 
     return (
         <div class="main">
@@ -31,6 +34,21 @@ function Main() {
 
             <p> Projects </p>
             <div id ="projects">  
+            {/* <HoverCard>
+            <HoverCardTrigger>Shoe Log</HoverCardTrigger>
+            <HoverCardContent>
+    The React Framework created and maintained by @vercel.
+            </HoverCardContent>
+            </HoverCard>
+
+            <HoverCard>
+<HoverCardTrigger>MacawManager</HoverCardTrigger>
+<HoverCardContent>
+    The React Framework created and maintained by @vercel.
+</HoverCardContent>
+</HoverCard> */}
+
+
             <div class = "desc">
                 <p> MacawManager </p>
                 <p> Shoelog </p>
@@ -40,19 +58,6 @@ function Main() {
                 <img alt="projects" ></img>
                 <img alt="projects" ></img>
                 </div>
-            {/* <div class="best">
-            <p> Best Project </p>
-            <img alt="best project" >
-
-            </img>
-            </div>
-
-            <div class="better">
-            <p> Better Project </p>
-            <img alt="better project" >
-                
-            </img>
-            </div> */}
             </div>
 
             <p> Others </p>
